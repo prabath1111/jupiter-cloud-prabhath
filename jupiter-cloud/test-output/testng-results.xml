@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regressionSuite" duration-ms="7792" started-at="2021-09-11T01:44:19 IST" finished-at="2021-09-11T01:44:27 IST">
+    <groups>
+    </groups>
+    <test name="regressionTest" duration-ms="7792" started-at="2021-09-11T01:44:19 IST" finished-at="2021-09-11T01:44:27 IST">
+      <class name="com.jupiter.testsuites.TS_Regression">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.jupiter.testsuites.TS_Regression@1060b431]" name="configSetup" is-config="true" duration-ms="100" started-at="2021-09-11T01:44:19 IST" finished-at="2021-09-11T01:44:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetup -->
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.jupiter.testsuites.TS_Regression@1060b431]" name="setup" is-config="true" duration-ms="2241" started-at="2021-09-11T01:44:19 IST" finished-at="2021-09-11T01:44:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.jupiter.testsuites.TS_Regression.tc_004(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc_004(java.lang.String,java.lang.String)[pri:0, instance:com.jupiter.testsuites.TS_Regression@1060b431]" name="tc_004" duration-ms="3608" started-at="2021-09-11T01:44:21 IST" data-provider="tc_004" finished-at="2021-09-11T01:44:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tc_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stuffed Frog=2,Fluffy Bunny=5,Valentine Bear=3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.jupiter.testsuites.TS_Regression@1060b431]" name="tearDownTest" is-config="true" duration-ms="1158" started-at="2021-09-11T01:44:25 IST" finished-at="2021-09-11T01:44:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jupiter.testsuites.TS_Regression@1060b431]" name="tearDown" is-config="true" duration-ms="265" started-at="2021-09-11T01:44:26 IST" finished-at="2021-09-11T01:44:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jupiter.testsuites.TS_Regression -->
+    </test> <!-- regressionTest -->
+  </suite> <!-- regressionSuite -->
+</testng-results>

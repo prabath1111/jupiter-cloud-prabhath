@@ -1,0 +1,14 @@
+<suite name="regressionSuite" verbose="3">
+	<test name="regressionTest" preserve-order="true">
+		<classes>
+			<class name="com.jupiter.testsuites.TS_Regression">
+				<methods>
+					<include name="tc_001"></include>
+					<include name="tc_002"></include>
+					<include name="tc_003"></include>
+					<include name="tc_004"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

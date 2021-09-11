@@ -1,0 +1,15 @@
+com\jupiter\testsuites\TS_Regression.class
+com\jupiter\pages\Page_Contact.class
+com\jupiter\pages\Page_Shop.class
+com\jupiter\utils\ExecutorUnit.class
+com\jupiter\utils\ThreadRunner.class
+com\jupiter\utils\ConfigHandler.class
+com\jupiter\commands\CommandsRepository.class
+com\jupiter\pages\Page_Home.class
+com\jupiter\utils\cons\BrowserCapabilities.class
+com\jupiter\utils\DataUtils.class
+com\jupiter\pages\Page_Cart.class
+com\jupiter\rutime\ExecutionConfig.class
+com\jupiter\utils\cons\PageConstants.class
+com\jupiter\utils\cons\DataConstants.class
+com\jupiter\utils\ReportUtils.class
