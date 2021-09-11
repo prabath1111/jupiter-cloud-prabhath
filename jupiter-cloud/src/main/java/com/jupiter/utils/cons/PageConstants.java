@@ -2,6 +2,13 @@ package com.jupiter.utils.cons;
 
 import com.jupiter.pages.*;
 
+/**
+ * 
+ * PageConstant class enables static reference to Pages
+ * 
+ * @author Prabath
+ *
+ */
 public class PageConstants {
 
 	public static Page_Home page_Home = new Page_Home();

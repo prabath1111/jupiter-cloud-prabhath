@@ -16,8 +16,23 @@ import org.openqa.selenium.support.ui.FluentWait;
 
 import com.jupiter.utils.ThreadRunner;
 
+/**
+ * 
+ * CommandRepository class contains all the commands related to the commands and test functions
+ * 
+ * 
+ * @author Prabath
+ *
+ */
 public class CommandsRepository {
 
+	/**
+	 * 
+	 * Opens a browser instance and navigate for the @param url
+	 * 
+	 * @param url
+	 * @param waitTime
+	 */
 	public void openBrowser(final String url, final long waitTime){
 		
 		String webURL = url;
@@ -62,6 +77,13 @@ public class CommandsRepository {
 		
 	}
 	
+	/**
+	 * 
+	 * Click function on a web element
+	 * 
+	 * 
+	 * @param element
+	 */
 	public void click(By element) {
 
 		try {
@@ -77,6 +99,13 @@ public class CommandsRepository {
 		}
 	}
 
+	/**
+	 * 
+	 * Type function of a web element
+	 * 
+	 * @param element
+	 * @param value
+	 */
 	public void type(By element, String value) {
 		
 		try {
@@ -92,21 +121,15 @@ public class CommandsRepository {
 		}
 	}
 	
-//	public void isElementPresent(By element) {
-//		
-//		try {
-//
-//			WebDriver driver = ThreadRunner.getExecutorUnit().getDriver();
-//			driver.findElement(element);
-//
-//			ThreadRunner.reportUtils.addToStepPassed("Is Element Present Command : element : " + element.toString(), "PASSED");
-//		} catch (Exception e) {
-//
-//			e.printStackTrace();
-//			ThreadRunner.reportUtils.addToStepFailed("Is Element Present Command : element : " + element.toString(), "FAILED");
-//		}
-//	}
-	
+	/**
+	 * 
+	 * Is element present conditional command
+	 * 
+	 * 
+	 * @param element
+	 * @param expected
+	 * @param waitTime
+	 */
 	public void isElementPresent(By element, boolean expected, long waitTime) {
 	
 		boolean isElementPresent = false;
@@ -146,6 +169,13 @@ public class CommandsRepository {
 		}
 	}
 	
+	/**
+	 * 
+	 * Wait a specific element to be visible using selenium Fluent Wait
+	 * 
+	 * @param element
+	 * @param waitTime
+	 */
 	public void waitTillElementLoad(By element, long waitTime) {
 		
 		try {

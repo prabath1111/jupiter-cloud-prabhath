@@ -9,6 +9,15 @@ import com.jupiter.utils.cons.PageConstants;
 
 public class TS_Regression extends ExecutionConfig{
 
+	/**
+     * 
+     * Test Method tc_002
+     * 	Verify the survey feedback functionality
+     * 
+     * @param foreName
+     * @param Email
+     * @param Message
+     */
 	@Test(dataProvider = "tc_001")
 	public void tc_001(final String foreName, final String Email, final String Message) {
 		
@@ -19,8 +28,11 @@ public class TS_Regression extends ExecutionConfig{
 		PageConstants.page_Contact.validateErrorMessageIsGone();
 	}
 	
-	 /**
+	 /** 
+	 * 
      * Data provider for Test case tc_001.
+     *  
+     * 
      * @return data table
      */
     @DataProvider(name = "tc_001")
@@ -32,6 +44,7 @@ public class TS_Regression extends ExecutionConfig{
     /**
      * 
      * Test Method tc_002
+     * 	Verify success of feedback submission
      * 
      * @param foreName
      * @param Email
@@ -61,6 +74,7 @@ public class TS_Regression extends ExecutionConfig{
     /**
      * 
      * Test Method tc_003
+     *  Verify buy product functionality
      * 
      * @param foreName
      * @param Email
@@ -89,6 +103,7 @@ public class TS_Regression extends ExecutionConfig{
     /**
      * 
      * Test Method tc_004
+     *  Verify cart functionality
      * 
      * @param foreName
      * @param Email

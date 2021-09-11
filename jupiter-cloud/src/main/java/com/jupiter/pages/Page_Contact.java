@@ -4,6 +4,13 @@ import org.openqa.selenium.By;
 
 import com.jupiter.commands.CommandsRepository;
 
+/**
+ * 
+ * PageContract contains the functions and web elements related to the page
+ * 
+ * @author Prabath
+ *
+ */
 public class Page_Contact extends CommandsRepository{
 
 	By btn_Submit = By.xpath("//a[text()='Submit']");

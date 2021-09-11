@@ -13,6 +13,13 @@ public class Page_Shop extends CommandsRepository{
 
 	By btn_item = null;
 
+	/**
+	 * 
+	 *  BuyProduct method execute over items array to purchase relevant items from the application considering quantity as well.
+	 * 
+	 * 
+	 * @param items
+	 */
 	public void buyProducts(String items) {
 
 		List<String> itemsArray = Arrays.asList(items.split(","));
@@ -28,6 +35,13 @@ public class Page_Shop extends CommandsRepository{
 
 	}
 	
+	/**
+	 * 
+	 *  BuyProduct method execute over items array to store relevant items from the application.
+	 * 
+	 * 
+	 * @param items
+	 */
 	public void storePriceByItems(String tcName, String items) {
 			
 		List<String> itemsArray = Arrays.asList(items.split(","));
@@ -42,12 +56,26 @@ public class Page_Shop extends CommandsRepository{
 		
 	}
 
+	/**
+	 * 
+	 * parameterization enables changing the WebElement value without changing the locator
+	 * 
+	 * @param itemName
+	 * @return
+	 */
 	private By getElementItemBuyNow(String itemName) {
 
 		String xpathItem = "//h4[text()='" + itemName + "']/..//a";
 		return By.xpath(xpathItem);
 	}
 	
+	/**
+	 * 
+	 * parameterization enables changing the WebElement value without changing the locator
+	 * 
+	 * @param itemName
+	 * @return
+	 */
 	private By getElementItemPrice(String itemName) {
 
 		String xpathItem = "//h4[text()='"+itemName+"']/..//span";

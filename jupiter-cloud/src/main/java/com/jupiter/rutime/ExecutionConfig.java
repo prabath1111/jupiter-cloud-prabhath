@@ -22,6 +22,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ExecutionConfig {
 	
 	
+	/**
+	 * 
+	 * Initiate the report structure for the test
+	 * 
+	 * 
+	 */
 	@BeforeTest
 	public final void configSetup() {
 		
@@ -62,6 +68,14 @@ public class ExecutionConfig {
 			ThreadRunner.getExecutorUnit().getDriver().quit();
 		}
 
+		/**
+		 * 
+		 * Browser session handling method
+		 * 
+		 * 
+		 * @param browserString
+		 * @return
+		 */
 		private final synchronized WebDriver startBrowserSession(String browserString) {
 			
 			if ("browser".equals(browserString)) {
