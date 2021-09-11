@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="56.013" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="TestSuite" time="92.754" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
     <property name="java.vm.version" value="25.281-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\SW\installed\EclispseWorkspaces\jupiter-cloud"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\SW\installed\EclispseWorkspaces\a\jupiter-cloud-prabhath\jupiter-cloud"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\SW\installed\EclispseWorkspaces\jupiter-cloud"/>
+    <property name="user.dir" value="C:\SW\installed\EclispseWorkspaces\a\jupiter-cloud-prabhath\jupiter-cloud"/>
     <property name="java.runtime.version" value="1.8.0_281-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
@@ -65,8 +65,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_001" time="36.79"/>
-  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="13.585"/>
-  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_003" time="2.896"/>
-  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_004" time="2.742"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_001" time="36.511"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="4.238"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="8.325"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="16.955"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="5.122"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_002" time="15.957"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_003" time="2.883"/>
+  <testcase classname="com.jupiter.testsuites.TS_Regression" name="tc_004" time="2.763"/>
 </testsuite>
